@@ -1,0 +1,9 @@
+<server description="SpringBoot Liberty server">
+    <featureManager>
+        <feature>adminCenter-1.0</feature>
+        <feature>websocket-1.1</feature>
+    </featureManager>
+    <quickStartSecurity userName="admin" userPassword="admin" />
+    <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}" id="defaultHttpEndpoint" host="*" />
+    <webApplication location="ngboot-app.jar" contextRoot="${app.context.root}"/>
+</server>
