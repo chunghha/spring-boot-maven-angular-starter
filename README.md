@@ -27,6 +27,9 @@ $ java -jar backend/target/ngboot-app.jar
 
 The application will be accessible at `http://localhost:8080`.
 
+$ backend/target/liberty/wlp/bin/server start | stop
+
+
 ## Features
 
 This starter comes bundled with the following features:
