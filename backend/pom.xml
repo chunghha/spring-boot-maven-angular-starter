@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project 
-    xmlns="http://maven.apache.org/POM/4.0.0" 
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-angular-starter</artifactId>
@@ -119,7 +119,7 @@
                     <assemblyArtifact>
                         <groupId>com.ibm.websphere.appserver.runtime</groupId>
                         <artifactId>wlp-webProfile7</artifactId>
-                        <version>17.0.0.3</version>
+                        <version>18.0.0.2</version>
                         <type>zip</type>
                     </assemblyArtifact>
                     <configFile>${basedir}/src/main/liberty/config/server.xml</configFile>
